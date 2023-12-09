@@ -22,30 +22,13 @@ section.content {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.profile {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
 .profile img {
-    margin: 10px;
-}
-
-.avatar {
-    max-width: 75%;
-    border-radius: 10px; /* или любое другое значение, чтобы придать скругленные углы */
-}
-
-.small-avatar {
-    max-width: 25%;
-    border-radius: 10px;
+    max-width: 100%;
+    border-radius: 50%;
 }
 
 .about-me,
-.skills,
-.knowledge {
-    flex: 0 1 calc(50% - 20px);
+.skills {
     margin-top: 20px;
 }
 
